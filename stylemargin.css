@@ -1,0 +1,74 @@
+.main{ border:3px solid gray;
+	   border-radius:10px;
+	   width:600px;
+	   height:600px;
+	   overflow: auto;
+       background-image: linear-gradient(to bottom right,blue,yellow);
+       
+       
+     }
+
+body{    
+      width:100%;
+      background-image: url("C:/users/shivamtiwari/webpages/images/nightmoon.jpg");
+      background-repeat: no-repeat;
+      background-size:cover; 
+    }     
+
+.main1{
+	color:navy;
+    text-align:center;
+    margin:10px auto;
+  }    
+
+.wrapper{ 
+
+          margin:10px 25px;
+          width:550px;
+          height:400px;
+
+        }
+
+article{ 
+	     margin:0px 5px;
+	     color:black;
+         font: 14px/1.4 Arial;
+       }
+
+
+.footer{   
+        color:black;
+        text-align:center;
+      }    
+
+
+/*Other than content*/
+
+
+.aside{   
+        font:25px/1.4 Algerian;
+        background-image:conic-gradient(yellow,green,blue,yellow);
+        /*border was included in starting but after perfect layout, it has been removed*/
+        width:350px;
+        margin-top: 20px;
+        margin-right: 10px;
+        margin-left:85px;
+        height:210px;
+        padding:20px;
+        border-radius: 50px;
+        text-align: center;
+
+      }
+
+
+section{    
+          display: flex;
+          justify-content: space-between;
+          flex-wrap:wrap;
+       }      
+
+footer{
+         text-align: center;
+         color:white;
+         position:bottom;
+      }      
